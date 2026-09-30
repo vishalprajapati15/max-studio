@@ -7,7 +7,6 @@ const quickLinks = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Services", href: "/services" },
-  { label: "Portfolio", href: "/portfolio" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -39,36 +38,16 @@ export default function Footer() {
   return (
     <footer className="w-full bg-transparent px-4 pb-6 pt-16">
       <div
-        className="
-          relative mx-auto max-w-7xl
-          overflow-hidden rounded-[32px]
-          border border-white/10
-          bg-black/75
-          backdrop-blur-xl
-          shadow-[0_-10px_50px_rgba(0,0,0,0.18)]
+        className="relative mx-auto max-w-7xl overflow-hidden rounded-[32px] border border-white/10 bg-black/75 backdrop-blur-xl shadow-[0_-10px_50px_rgba(0,0,0,0.18)]
         "
       >
         {/* Subtle gold glow - top left */}
         <div
-          className="
-            pointer-events-none absolute
-            -left-32 -top-32
-            h-72 w-72
-            rounded-full
-            bg-[#b18a4a]/10
-            blur-3xl
-          "
+          className="pointer-events-none absolute -left-32 -top-32 h-72 w-72 rounded-full bg-[#b18a4a]/10 blur-3xl"
         />
 
         <div
-          className="
-            pointer-events-none absolute
-            -bottom-40 -right-32
-            h-80 w-80
-            rounded-full
-            bg-[#b18a4a]/8
-            blur-3xl
-          "
+          className="pointer-events-none absolute -bottom-40 -right-32 h-80 w-80 rounded-full bg-[#b18a4a]/8 blur-3xl"
         />
 
         <div className="relative px-6 py-12 sm:px-10 lg:px-14 lg:py-14">
