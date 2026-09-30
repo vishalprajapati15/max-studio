@@ -7,7 +7,7 @@ import { useEffect, useRef } from "react";
 const Hero = () => {
   const videoRef = useRef<HTMLVideoElement | null>(null);
 
-  const videoUrl = "https://res.cloudinary.com/dt5fwssmf/video/upload/v1790325921/Hero.mp4";
+  const videoUrl = "https://res.cloudinary.com/dt5fwssmf/video/upload/v1790766425/Hero.mp4"
 
   useEffect(() => {
     const video = videoRef.current;
@@ -43,16 +43,8 @@ const Hero = () => {
         muted
         loop
         playsInline
-        preload="auto"
-        className="
-          absolute
-          inset-0
-          z-0
-          h-full
-          w-full
-          object-cover
-          opacity-40
-        "
+        preload="metadata"
+        className="absolute inset-0 z-0 h-full w-full object-cover opacity-40"
       />
 
       {/* Dark Overlay */}

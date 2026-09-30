@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from "react";
 import Link from "next/link";
 import { motion, useInView } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-const videoUrl = "https://res.cloudinary.com/dt5fwssmf/video/upload/v1790337956/aboutVid.mp4";
+const videoUrl = "https://res.cloudinary.com/dt5fwssmf/video/upload/v1790766674/AboutPreview.mp4";
 
 const AboutPreview = () => {
   const videoRef = useRef<HTMLVideoElement | null>(null);
