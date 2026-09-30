@@ -1,0 +1,51 @@
+export const portfolioPreviewSlides = [
+    {
+        id: 1,
+        label: "Landscape",
+        title: "Landscape Photography",
+        description: "Breathtaking landscapes captured with a focus on natural beauty, depth, light, and atmosphere.",
+        image: "https://res.cloudinary.com/dt5fwssmf/image/upload/v1790768985/Pic1.jpg",
+    },
+    {
+        id: 2,
+        label: "Mountains",
+        title: "Mountain Photography",
+        description: "Majestic mountain views captured to showcase the scale, textures, and timeless beauty of nature.",
+        image: "https://res.cloudinary.com/dt5fwssmf/image/upload/v1790768985/Pic2.jpg",
+    },
+    {
+        id: 3,
+        label: "Wildlife",
+        title: "Wildlife Photograph",
+        description: "Authentic moments from the wild, capturing animals, their surroundings, and the spirit of nature.",
+        image: "https://res.cloudinary.com/dt5fwssmf/image/upload/v1790768985/Pic3.jpg",
+    },
+    {
+        id: 4,
+        label: "Forest",
+        title: "Forest & Nature",
+        description: "Immersive forest scenes highlighting rich textures, natural colors, and the peaceful side of the outdoors.",
+        image: "https://res.cloudinary.com/dt5fwssmf/image/upload/v1790768985/Pic4.jpg",
+    },
+    {
+        id: 5,
+        label: "Sunset",
+        title: "Flora & Flowers",
+        description: "Warm and atmospheric moments captured during golden hour, when natural light transforms the landscape.",
+        image: "https://res.cloudinary.com/dt5fwssmf/image/upload/v1790768985/Pic5.jpg",
+    },
+    {
+        id: 6,
+        label: "Flora",
+        title: "Flora & Flowers",
+        description: "Detailed photographs of flowers and plants that reveal the delicate textures, colors, and beauty of nature.",
+        image: "https://res.cloudinary.com/dt5fwssmf/image/upload/v1790768985/Pic6.jpg",
+    },
+    {
+        id: 7,
+        label: "Scenery",
+        title: "Natural Scenery",
+        description: "Beautiful outdoor moments composed to preserve the mood, atmosphere, and character of the natural world.",
+        image: "https://res.cloudinary.com/dt5fwssmf/image/upload/v1790768985/Pic7.jpg",
+    },
+];
