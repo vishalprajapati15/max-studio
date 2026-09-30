@@ -53,7 +53,7 @@ export default function Navbar() {
               href="/portfolio"
               className="flex cursor-pointer items-center gap-1.5 rounded-lg px-4 py-2.5 text-[14px] font-medium text-[#f4e8d6]/75 transition-all duration-300 hover:bg-white/[0.06] hover:text-[#f4e8d6]"
             >
-              Portfolio
+              Services
               <svg
                 className="h-4 w-4 font-bold text-white transition-transform duration-300 group-hover:rotate-180"
                 viewBox="0 0 20 20"
@@ -100,11 +100,7 @@ export default function Navbar() {
               />
             </div>
           </div>
-
-          <NavLink href="/services" label="Service" />
-
           <NavLink href="/about" label="About us" />
-
           <NavLink href="/contact" label="Contact" />
         </div>
 

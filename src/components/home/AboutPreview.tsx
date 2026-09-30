@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import Link from "next/link";
 import { motion, useInView } from "framer-motion";
 import { ArrowRight } from "lucide-react";
@@ -32,7 +32,7 @@ const AboutPreview = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.25 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-[#b18a4a]"
+          className="mb-4 text-lg font-medium uppercase tracking-[0.3em] text-[#b18a4a]"
         >
           About MAX Studio
         </motion.p>
